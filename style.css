@@ -1,0 +1,447 @@
+body {
+  background: linear-gradient(-225deg, #5D9FFF 0%, #B8DCFF 48%, #6BBBFF 100%);
+}
+
+.title {
+  text-align: center;
+}
+
+.box {
+  position: relative;
+  margin: auto;
+  display: block;
+  /*optional background or border*/
+  margin-top: 2%;
+  width: 600px;
+  height: 430px;
+  background: none;
+}
+
+.cake-bottom {
+  position: absolute;
+  top: 55%;
+  left: 29%;
+  width: 42%;
+  height: 42%;
+  background: #261714;
+  border-radius: 5%;
+  -webkit-clip-path: polygon(0 0, 100% 0, 90% 100%, 11% 100%);
+  clip-path: polygon(0 0, 100% 0, 90% 100%, 11% 100%);
+}
+
+.base {
+  position: absolute;
+  top: 55%;
+  left: 29%;
+  width: 42%;
+  height: 42%;
+  background: rgba(255, 214, 235, 0.6);
+  border-radius: 5%;
+  -webkit-clip-path: polygon(0 0, 100% 0, 90% 100%, 11% 100%);
+  clip-path: polygon(0 0, 100% 0, 90% 100%, 11% 100%);
+}
+
+.base-line-1 {
+  position: absolute;
+  top: 0%;
+  left: 3%;
+  width: 5%;
+  height: 100%;
+  background: rgba(248, 106, 235, 0.6);
+  border-radius: 5%;
+  clip-path: polygon(0 0, 100% 0, 82% 100%, 18% 100%);
+}
+
+.base-line-2 {
+  position: absolute;
+  top: 0%;
+  left: 13%;
+  width: 5%;
+  height: 100%;
+  background: rgba(248, 106, 235, 0.6);
+  border-radius: 5%;
+  clip-path: polygon(0 0, 100% 0, 82% 100%, 18% 100%);
+}
+
+.base-line-3 {
+  position: absolute;
+  top: 0%;
+  left: 23%;
+  width: 5%;
+  height: 100%;
+  background: rgba(248, 106, 235, 0.6);
+  border-radius: 5%;
+  clip-path: polygon(0 0, 100% 0, 82% 100%, 18% 100%);
+}
+
+.base-line-4 {
+  position: absolute;
+  top: 0%;
+  left: 33%;
+  width: 5%;
+  height: 100%;
+  background: rgba(248, 106, 235, 0.6);
+  border-radius: 5%;
+  clip-path: polygon(0 0, 100% 0, 82% 100%, 18% 100%);
+}
+
+.base-line-5 {
+  position: absolute;
+  top: 0%;
+  left: 43%;
+  width: 5%;
+  height: 100%;
+  background: rgba(248, 106, 235, 0.6);
+  border-radius: 5%;
+  clip-path: polygon(0 0, 100% 0, 82% 100%, 18% 100%);
+}
+
+.base-line-6 {
+  position: absolute;
+  top: 0%;
+  left: 53%;
+  width: 5%;
+  height: 100%;
+  background: rgba(248, 106, 235, 0.6);
+  border-radius: 5%;
+  clip-path: polygon(0 0, 100% 0, 82% 100%, 18% 100%);
+}
+
+.base-line-7 {
+  position: absolute;
+  top: 0%;
+  left: 63%;
+  width: 5%;
+  height: 100%;
+  background: rgba(248, 106, 235, 0.6);
+  border-radius: 5%;
+  clip-path: polygon(0 0, 100% 0, 82% 100%, 18% 100%);
+}
+
+.base-line-8 {
+  position: absolute;
+  top: 0%;
+  left: 73%;
+  width: 5%;
+  height: 100%;
+  background: rgba(248, 106, 235, 0.6);
+  border-radius: 5%;
+  clip-path: polygon(0 0, 100% 0, 82% 100%, 18% 100%);
+}
+
+.base-line-9 {
+  position: absolute;
+  top: 0%;
+  left: 83%;
+  width: 5%;
+  height: 100%;
+  background: rgba(248, 106, 235, 0.6);
+  border-radius: 5%;
+  clip-path: polygon(0 0, 100% 0, 82% 100%, 18% 100%);
+}
+
+.base-line-10 {
+  position: absolute;
+  top: 0%;
+  left: 93%;
+  width: 5%;
+  height: 100%;
+  background: rgba(248, 106, 235, 0.6);
+  border-radius: 5%;
+  clip-path: polygon(0 0, 100% 0, 82% 100%, 18% 100%);
+}
+
+.cake-chocolate {
+  position: absolute;
+  top: 40%;
+  left: 27%;
+  width: 46%;
+  height: 27%;
+  background: linear-gradient(to top, #261714 0%, #552620 100%);
+  border-radius: 50%;
+}
+
+.whipped-cream-1 {
+  position: absolute;
+  top: 37%;
+  left: 33%;
+  width: 34%;
+  height: 17%;
+  background: linear-gradient(to top, #a09786 -10%, white 100%);
+  border-radius: 50%;
+}
+
+.whipped-cream-2 {
+  position: absolute;
+  top: -25%;
+  left: 5%;
+  width: 90%;
+  height: 90%;
+  background: linear-gradient(to top, #a09786 -10%, white 100%);
+  border-radius: 50%;
+}
+
+.whipped-cream-3 {
+  position: absolute;
+  top: -25%;
+  left: 5%;
+  width: 90%;
+  height: 90%;
+  background: linear-gradient(to top, #a09786 -10%, white 100%);
+  border-radius: 50%;
+}
+
+.star {
+  position: absolute;
+  top: 35%;
+  left: 55%;
+  width: 20%;
+  height: 20%;
+  background: #ba7e65;
+  transform: rotate(15deg);
+  -webkit-clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%);
+  clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%);
+}
+
+.cherry {
+  position: absolute;
+  top: 25%;
+  left: 45%;
+  width: 9%;
+  height: 12%;
+  background: linear-gradient(to top, #7c050c 0%, #da293f 100%);
+  border-radius: 50%;
+}
+
+.cherry-bullet-black {
+  position: absolute;
+  top: 25%;
+  left: 49%;
+  width: 2%;
+  height: 2%;
+  background: black;
+  border-radius: 50%;
+}
+
+.cherry-top {
+  position: absolute;
+  top: 6%;
+  left: 49.5%;
+  width: 10%;
+  height: 20%;
+  background: none;
+  border-top-left-radius: 50%;
+  border-left: solid 5px green;
+}
+
+.candle-1 {
+  position: absolute;
+  top: 21%;
+  left: 34%;
+  width: 4%;
+  height: 40%;
+  background: #F9619E;
+  border-radius: 5%;
+  transform: rotate(-10deg);
+}
+
+.candle-2 {
+  position: absolute;
+  top: 22%;
+  left: 41%;
+  width: 4%;
+  height: 41%;
+  background: #F9619E;
+  border-radius: 5%;
+  transform: rotate(-10deg);
+}
+
+.candle-line-1 {
+  position: absolute;
+  top: 0%;
+  left: -15%;
+  width: 130%;
+  height: 2%;
+  background: #F8ABCA;
+  transform: rotate(-45deg);
+}
+
+.candle-line-2 {
+  position: absolute;
+  top: 7%;
+  left: -15%;
+  width: 130%;
+  height: 2%;
+  background: #F8ABCA;
+  transform: rotate(-45deg);
+}
+
+.candle-line-3 {
+  position: absolute;
+  top: 14%;
+  left: -15%;
+  width: 130%;
+  height: 2%;
+  background: #F8ABCA;
+  transform: rotate(-45deg);
+}
+
+.candle-line-4 {
+  position: absolute;
+  top: 21%;
+  left: -15%;
+  width: 130%;
+  height: 2%;
+  background: #F8ABCA;
+  transform: rotate(-45deg);
+}
+
+.candle-line-5 {
+  position: absolute;
+  top: 28%;
+  left: -15%;
+  width: 130%;
+  height: 2%;
+  background: #F8ABCA;
+  transform: rotate(-45deg);
+}
+
+.candle-line-6 {
+  position: absolute;
+  top: 35%;
+  left: -15%;
+  width: 130%;
+  height: 2%;
+  background: #F8ABCA;
+  transform: rotate(-45deg);
+}
+
+.candle-line-7 {
+  position: absolute;
+  top: 42%;
+  left: -15%;
+  width: 130%;
+  height: 2%;
+  background: #F8ABCA;
+  transform: rotate(-45deg);
+}
+
+.candle-line-8 {
+  position: absolute;
+  top: 49%;
+  left: -15%;
+  width: 130%;
+  height: 2%;
+  background: #F8ABCA;
+  transform: rotate(-45deg);
+}
+
+.candle-line-9 {
+  position: absolute;
+  top: 56%;
+  left: -15%;
+  width: 130%;
+  height: 2%;
+  background: #F8ABCA;
+  transform: rotate(-45deg);
+}
+
+.candle-line-10 {
+  position: absolute;
+  top: 63%;
+  left: -15%;
+  width: 130%;
+  height: 2%;
+  background: #F8ABCA;
+  transform: rotate(-45deg);
+}
+
+.candle-line-11 {
+  position: absolute;
+  top: 70%;
+  left: -15%;
+  width: 130%;
+  height: 2%;
+  background: #F8ABCA;
+  transform: rotate(-45deg);
+}
+
+.candle-line-12 {
+  position: absolute;
+  top: 77%;
+  left: -15%;
+  width: 130%;
+  height: 2%;
+  background: #F8ABCA;
+  transform: rotate(-45deg);
+}
+
+.candle-line-13 {
+  position: absolute;
+  top: 84%;
+  left: -15%;
+  width: 130%;
+  height: 2%;
+  background: #F8ABCA;
+  transform: rotate(-45deg);
+}
+
+.candle-line-14 {
+  position: absolute;
+  top: 91%;
+  left: -15%;
+  width: 130%;
+  height: 2%;
+  background: #F8ABCA;
+  transform: rotate(-45deg);
+}
+
+.candle-line-15 {
+  position: absolute;
+  top: 95%;
+  left: 12%;
+  width: 90%;
+  height: 2%;
+  background: #F8ABCA;
+  transform: rotate(-45deg);
+}
+
+.fire-candle-1 {
+  position: absolute;
+  top: 13%;
+  left: 29.5%;
+  width: 7%;
+  height: 11%;
+  background: linear-gradient(to top, #f83600 0%, #f9d423 100%);
+  border-radius: 50%;
+  -webkit-clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+  clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+  transform: rotate(-10deg);
+  animation: candleFire 3s infinite;
+}
+
+.fire-candle-2 {
+  position: absolute;
+  top: 13%;
+  left: 36%;
+  width: 7%;
+  height: 11%;
+  background: linear-gradient(to top, #f83600 0%, #f9d423 100%);
+  border-radius: 50%;
+  -webkit-clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+  clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+  transform: rotate(-10deg);
+  animation: candleFire 3s infinite;
+}
+
+@keyframes candleFire {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.3);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
